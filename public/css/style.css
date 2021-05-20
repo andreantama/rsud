@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  top: 0;
+}
+.header {
+  width: 100%;
+  background:rgb(129, 0, 134);
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+.header > h1 {
+  color: #fff;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  flex-flow: space-between;
+}
+.sidebar {
+  flex-grow: 1;
+}
+.menu > li {
+  padding: 10px;
+  margin-bottom: 5px;
+  background-color: rgb(101, 173, 255);
+}
+.content {
+  flex-grow: 4;
+  margin: 10px;
+}
+.footer {
+  width: 100%;
+  background:rgb(14, 148, 238);
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+}
+.footer > h1 {
+  color: #fff;
+}

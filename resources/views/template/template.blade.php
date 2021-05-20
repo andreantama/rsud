@@ -10,7 +10,25 @@
     @livewireStyles
   </head>
   <body>
-    @yield('content')
+  <div class="container">
+    <div class="header">
+      <h1>Header</h1>
+    </div>
+    <div class="main">
+      <div class="sidebar">
+        <ul class="menu">
+          <li><a href="{{ Route("index") }}">From Input</a></li>
+          <li><a href="#">Lorem</a></li>
+        </ul>
+      </div>
+      <div class="content">
+        @yield('content')
+      </div>
+    </div>
+    <div class="footer">
+      <h1>Footer</h1>
+    </div>
+  </div>
     @livewireScripts
   </body>
 </html>
