@@ -39,3 +39,21 @@
 .footer > h1 {
   color: #fff;
 }
+.table {
+  margin-top: 25px;
+}
+table {
+  width: 100%;
+  border: 1px solid #bfbfbf;
+  text-align: center;
+}
+tr.border_bottom td {
+  border-bottom: 1px solid #bfbfbf;
+}
+tr.border_bottom th {
+  border-bottom: 1px solid #000;
+}
+.error {
+  color: red;
+  font-style: italic;
+}
