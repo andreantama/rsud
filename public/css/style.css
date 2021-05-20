@@ -24,6 +24,7 @@
   padding: 10px;
   margin-bottom: 5px;
   background-color: rgb(101, 173, 255);
+  list-style: none;
 }
 .content {
   flex-grow: 4;
